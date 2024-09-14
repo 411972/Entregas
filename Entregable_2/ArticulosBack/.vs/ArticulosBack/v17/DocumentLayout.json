@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF21AE-FA75-4569-982B-C67DD3F5CC95}|..\\ArticulosWebAPI\\ArticulosWebAPI.csproj|c:\\users\\usuario\\desktop\\apuntes utn\\progra ii\\entregables\\articuloswebapi\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|c:\\users\\usuario\\desktop\\apuntes utn\\progra ii\\entregables\\articulosback\\services\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:services\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|c:\\users\\usuario\\desktop\\apuntes utn\\progra ii\\entregables\\articulosback\\data\\repository\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:data\\repository\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\data\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:data\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|c:\\users\\usuario\\desktop\\apuntes utn\\progra ii\\entregables\\articulosback\\data\\contracts\\iaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:data\\contracts\\iaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0B7D4F-768B-4B4B-A6B3-670FB1B552F1}|ArticulosBack.csproj|solutionrelative:models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "..\\ArticulosWebAPI\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "..\\ArticulosWebAPI\\Controllers\\ArticuloController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAG0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:58:38.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticuloService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Services\\ArticuloService.cs",
+              "RelativeDocumentMoniker": "Services\\ArticuloService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Services\\ArticuloService.cs",
+              "RelativeToolTip": "Services\\ArticuloService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:48:39.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\Repository\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\Repository\\ArticuloRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\ArticuloRepository.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwGkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:36:01.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Data\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\DataHelper.cs",
+              "RelativeToolTip": "Data\\DataHelper.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAIwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:58:58.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\Contracts\\IAplicacion.cs",
+              "RelativeDocumentMoniker": "Data\\Contracts\\IAplicacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Data\\Contracts\\IAplicacion.cs",
+              "RelativeToolTip": "Data\\Contracts\\IAplicacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:32:49.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Models\\Articulo.cs",
+              "RelativeToolTip": "Models\\Articulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:18:49.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:55:51.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

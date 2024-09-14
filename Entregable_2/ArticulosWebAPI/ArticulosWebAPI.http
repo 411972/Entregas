@@ -1,0 +1,6 @@
+@ArticulosWebAPI_HostAddress = http://localhost:5279
+
+GET {{ArticulosWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
