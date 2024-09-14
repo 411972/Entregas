@@ -910,11 +910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
       "projectName": "ArticulosWebAPI",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -931,8 +931,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj"
             }
           }
         }

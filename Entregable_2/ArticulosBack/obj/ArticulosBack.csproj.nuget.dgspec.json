@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj",
         "projectName": "ArticulosBack",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

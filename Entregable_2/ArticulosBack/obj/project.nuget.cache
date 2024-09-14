@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QBucKPsglHDzfmMtJKWdfWwU3rk0PySh+XY/Ku1K9uaqW5k5mQT5nYzGJhLajuYPQ1p1GklBhLFXpH/LDP3q6Q==",
+  "dgSpecHash": "b2A1cXmti5PrSvxxsR8HDA2gbB/Vcu2nTCgZbUS255unnafBM0oW+gYDc+zU/xXt+Pg/7Kgqv/W+XCku3TXeaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosBack\\ArticulosBack.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosBack\\ArticulosBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

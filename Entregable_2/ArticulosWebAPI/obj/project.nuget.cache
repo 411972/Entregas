@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FdlS4VEtVM7reiDjWBu90UNagESJL2BQ5UN8RLXdTraRZhPYwkK17Wm1dw0d8yTa4WNFd6rT4x+KmnZIr8TFIw==",
+  "dgSpecHash": "US1Kv5rVfqepXwzwDUg6zBI4hUoogpTXTy/XyBl4msdSsB/cJhR4/urdI6T9iNqltMD5liuVcQlMWxCQr8hJYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_2\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
