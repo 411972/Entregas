@@ -225,3 +225,19 @@ BEGIN
 	WHERE (@nombre_articulo is null or articulo = @nombre_articulo )
 END
 
+
+GO
+CREATE PROCEDURE SP_OBTENER_FACTURAS_FILTRO
+    @fecha DATETIME = NULL,  
+    @tipo_pago INT = NULL
+AS
+BEGIN
+  SELECT f.id_factura, f.fecha, fp.forma_pago, f.cliente FROM FACTURAS f
+  join FORMAS_PAGOS fp on f.formaPago = fp.id_forma_pago
+    WHERE (@fecha IS NULL OR f.fecha = @fecha)
+    AND (@tipo_pago IS NULL OR fp.id_forma_pago = @tipo_pago)
+
+END
+
+GO
+
