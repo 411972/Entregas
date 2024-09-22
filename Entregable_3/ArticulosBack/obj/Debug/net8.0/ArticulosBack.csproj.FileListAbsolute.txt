@@ -36,3 +36,16 @@ C:\Users\Usuario\Desktop\Apuntes UTN\Progra II\Entregables\Entregable_3\Articulo
 C:\Users\Usuario\Desktop\Apuntes UTN\Progra II\Entregables\Entregable_3\ArticulosBack\bin\Debug\net8.0\ArticulosBack.dll
 C:\Users\Usuario\Desktop\Apuntes UTN\Progra II\Entregables\Entregable_3\ArticulosBack\bin\Debug\net8.0\ArticulosBack.pdb
 C:\Users\Usuario\Desktop\Apuntes UTN\Progra II\Entregables\Entregable_3\ArticulosBack\obj\Debug\net8.0\ref\ArticulosBack.dll
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\bin\Debug\net8.0\ArticulosBack.deps.json
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\bin\Debug\net8.0\ArticulosBack.dll
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\bin\Debug\net8.0\ArticulosBack.pdb
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.sourcelink.json
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.dll
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\refint\ArticulosBack.dll
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ArticulosBack.pdb
+C:\Users\franc\OneDrive\Escritorio\Apuntes UTN\Programación II\Entregas\Entregable_3\ArticulosBack\obj\Debug\net8.0\ref\ArticulosBack.dll

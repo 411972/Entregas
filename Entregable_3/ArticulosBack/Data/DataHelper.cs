@@ -16,7 +16,7 @@ namespace ArticulosBack.Data
 
         private DataHelper(){
 
-            _connection = new SqlConnection("Data Source=DESKTOP-RCC7Q44\\SQLEXPRESS;Initial Catalog=facturaciones;Integrated Security=True;");
+            _connection = new SqlConnection("Data Source=FRANCO\\SQLEXPRESS;Initial Catalog=facturaciones;Integrated Security=True;");
         }
 
         public static DataHelper GetInstance()
@@ -118,6 +118,52 @@ namespace ArticulosBack.Data
             }
 
             return result;
+        }
+
+        public int ExecuteSPwOutputP(string sp, List<SqlParameter> paramsql, SqlTransaction t)
+        {
+            int idFactura = 0;
+            int rows = 0;
+            try
+            {
+                SqlCommand cmd = new SqlCommand(sp, _connection, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                foreach (SqlParameter param in paramsql)
+                {
+                    cmd.Parameters.AddWithValue(param.ParameterName, param.Value);
+                }
+
+                if (sp == "SP_INSERTAR_MAESTRO")
+                {
+                    SqlParameter paramOutput = new SqlParameter("@id_factura", SqlDbType.Int); 
+                    paramOutput.Direction = ParameterDirection.Output; 
+                    cmd.Parameters.Add(paramOutput); 
+
+                    cmd.ExecuteNonQuery(); 
+                    idFactura = (int)paramOutput.Value; 
+                    cmd.Parameters.Clear();
+                }
+                else
+                {
+                    rows = cmd.ExecuteNonQuery();
+                }
+
+
+            }
+            catch (Exception exc)
+            {
+                throw exc;
+            }
+
+            if (sp == "SP_INSERTAR_MAESTRO")
+            {
+                return idFactura;
+            }
+            else
+            {
+                return rows;
+            }
+
         }
 
     }

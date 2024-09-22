@@ -905,19 +905,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\franc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_3\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programación II\\Entregas\\Entregable_3\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
       "projectName": "ArticulosWebAPI",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_3\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_3\\ArticulosWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programación II\\Entregas\\Entregable_3\\ArticulosWebAPI\\ArticulosWebAPI.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programación II\\Entregas\\Entregable_3\\ArticulosWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -931,8 +931,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_3\\ArticulosBack\\ArticulosBack.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes UTN\\Progra II\\Entregables\\Entregable_3\\ArticulosBack\\ArticulosBack.csproj"
+            "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programación II\\Entregas\\Entregable_3\\ArticulosBack\\ArticulosBack.csproj": {
+              "projectPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programación II\\Entregas\\Entregable_3\\ArticulosBack\\ArticulosBack.csproj"
             }
           }
         }
@@ -976,7 +976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

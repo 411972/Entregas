@@ -56,5 +56,49 @@ namespace ArticulosWebAPI.Controllers
                 throw exc;
             }
         }
+
+        [HttpPost]
+
+        public IActionResult PostFactura([FromBody]Factura f)
+        {
+            try
+            {
+                if (_service.CrearFactura(f))
+                {
+                    return Ok("Factura creada");
+                }
+                else
+                {
+                    return BadRequest("No se pudo.");
+                }
+            }
+            catch (Exception exc)
+            {
+                return StatusCode(500, "Error");
+                throw exc;
+            }
+        }
+
+        [HttpPut]
+
+        public IActionResult PutFactura([FromBody] Factura f)
+        {
+            try
+            {
+                if (_service.EditarFactura(f))
+                {
+                    return Ok("Factura editada");
+                }
+                else
+                {
+                    return BadRequest("No se pudo.");
+                }
+            }
+            catch (Exception exc)
+            {
+                return StatusCode(500, "Error");
+                throw exc;
+            }
+        }
     }
 }

@@ -51,14 +51,110 @@ namespace ArticulosBack.Data.Repository
 
         }
 
-        public bool CrearFactura(Factura f)
+        public bool CrearFactura(Factura factura)
         {
-            throw new NotImplementedException();
+            bool result = true;
+            SqlTransaction t = null;
+
+            try
+            {
+                t = DataHelper.GetInstance().beginTransaction();
+                List<SqlParameter> lstMaestro = new List<SqlParameter>();
+                SqlParameter cliente = new SqlParameter("@cliente", factura.Cliente);
+                SqlParameter tipoPago = new SqlParameter("@formaPago", factura.FormaPago.Codigo);
+                lstMaestro.Add(cliente);
+                lstMaestro.Add(tipoPago);
+                int idFactura = DataHelper.GetInstance().ExecuteSPwOutputP("SP_INSERTAR_MAESTRO", lstMaestro, t);
+
+                List<SqlParameter> lstDetalle = new List<SqlParameter>();
+                int conteoId = 1;
+                bool rows;
+                foreach (DetalleFactura df in factura.Detalles)
+                {
+                    SqlParameter idDetalle = new SqlParameter("@id_detalle", conteoId);
+                    SqlParameter idFac = new SqlParameter("@id_factura", idFactura);
+                    SqlParameter idArt = new SqlParameter("@id_articulo", df.Articulo.Codigo);
+                    SqlParameter cantidad = new SqlParameter("@cantidad", df.Cantidad);
+
+                    lstDetalle.Add(idDetalle);
+                    lstDetalle.Add(idFac);
+                    lstDetalle.Add(idArt);
+                    lstDetalle.Add(cantidad);
+                    rows = DataHelper.GetInstance().ExecuteSPPost("SP_INSERTAR_DETALLE", lstDetalle, t);
+                    lstDetalle.Clear();
+                    conteoId++;
+                }
+
+
+
+                DataHelper.GetInstance().CommitTransaction(t);
+
+            }
+            catch (Exception)
+            {
+                result = false;
+                DataHelper.GetInstance().RollbackTransaction(t);
+            }
+            finally
+            {
+                DataHelper.GetInstance().CloseConnection();
+            }
+
+
+            return result;
         }
 
-        public bool EditarFactura(Factura f)
+        public bool EditarFactura(Factura factura)
         {
-            throw new NotImplementedException();
+            bool result = true;
+            SqlTransaction t = null;
+            int rows = 0;
+            int rowsDetalle;
+            List<SqlParameter> lstP = new List<SqlParameter>();
+
+            try
+            {
+                t = DataHelper.GetInstance().beginTransaction();
+
+                SqlParameter idFactura = new SqlParameter("@id_factura", factura.NroFactura);
+                lstP.Add(idFactura);
+                rows = DataHelper.GetInstance().ExecuteSPwOutputP("SP_ACTUALIZAR_FACTURA", lstP, t);
+
+                List<SqlParameter> lstDetalle = new List<SqlParameter>();
+                int conteoId = 1;
+
+                foreach (DetalleFactura df in factura.Detalles)
+                {
+                    SqlParameter idDetalle = new SqlParameter("@id_detalle", conteoId);
+                    SqlParameter idFac = new SqlParameter("@id_factura", factura.NroFactura);
+                    SqlParameter idArt = new SqlParameter("@id_articulo", df.Articulo.Codigo);
+                    SqlParameter cantidad = new SqlParameter("@cantidad", df.Cantidad);
+
+                    lstDetalle.Add(idDetalle);
+                    lstDetalle.Add(idFac);
+                    lstDetalle.Add(idArt);
+                    lstDetalle.Add(cantidad);
+                    DataHelper.GetInstance().ExecuteSPPost("SP_INSERTAR_DETALLE", lstDetalle, t);
+                    lstDetalle.Clear();
+                    conteoId++;
+                }
+
+                DataHelper.GetInstance().CommitTransaction(t);
+
+
+            }
+            catch (Exception exc)
+            {
+                result = false; 
+                DataHelper.GetInstance().RollbackTransaction(t);
+                throw exc;
+            }
+            finally
+            {
+                DataHelper.GetInstance().CloseConnection();
+            }
+
+            return result;
         }
     }
 }

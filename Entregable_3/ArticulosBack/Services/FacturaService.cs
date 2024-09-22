@@ -25,12 +25,12 @@ namespace ArticulosBack.Services
 
         public bool CrearFactura(Factura f)
         {
-            throw new NotImplementedException();
+            return _repository.CrearFactura(f);
         }
 
         public bool EditarFactura(Factura f)
         {
-            throw new NotImplementedException();
+            return _repository.EditarFactura(f);
         }
     }
 }
