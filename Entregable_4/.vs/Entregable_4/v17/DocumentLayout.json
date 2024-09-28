@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\entregable_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|solutionrelative:entregable_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\services\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\services\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\data\\repositories\\servicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\data\\repositories\\servicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\entregable_4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|solutionrelative:entregable_4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\entregable_4\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF803428-1185-46ED-8767-13EECD3A1D03}|Entregable_4\\Entregable_4.csproj|solutionrelative:entregable_4\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\services\\iservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\services\\iservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\data\\contracts\\iservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\data\\contracts\\iservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\data\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\data\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|c:\\users\\franc\\onedrive\\escritorio\\apuntes utn\\programaci\u00F3n ii\\entregas\\entregable_4\\turnosback\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}|TurnosBack\\TurnosBack.csproj|solutionrelative:turnosback\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\appsettings.json",
+              "RelativeDocumentMoniker": "Entregable_4\\appsettings.json",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\appsettings.json",
+              "RelativeToolTip": "Entregable_4\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-28T19:40:35.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\Program.cs",
+              "RelativeDocumentMoniker": "Entregable_4\\Program.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\Program.cs",
+              "RelativeToolTip": "Entregable_4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:39:02.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Entregable_4\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\Entregable_4\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "Entregable_4\\Controllers\\ServicesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:35:50.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Services\\ServicesService.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Services\\ServicesService.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Services\\ServicesService.cs",
+              "RelativeToolTip": "TurnosBack\\Services\\ServicesService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:30:35.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Services\\IServicesService.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Services\\IServicesService.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Services\\IServicesService.cs",
+              "RelativeToolTip": "TurnosBack\\Services\\IServicesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:30:09.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Repositories\\ServicesRepository.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Data\\Repositories\\ServicesRepository.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Repositories\\ServicesRepository.cs",
+              "RelativeToolTip": "TurnosBack\\Data\\Repositories\\ServicesRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:22:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IServicesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Contracts\\IServicesRepository.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Data\\Contracts\\IServicesRepository.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Contracts\\IServicesRepository.cs",
+              "RelativeToolTip": "TurnosBack\\Data\\Contracts\\IServicesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:18:20.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TurnosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Models\\TurnosDbContext.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Data\\Models\\TurnosDbContext.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Data\\Models\\TurnosDbContext.cs",
+              "RelativeToolTip": "TurnosBack\\Data\\Models\\TurnosDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wEwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:07:18.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Class1.cs",
+              "RelativeDocumentMoniker": "TurnosBack\\Class1.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Apuntes UTN\\Programaci\u00F3n II\\Entregas\\Entregable_4\\TurnosBack\\Class1.cs",
+              "RelativeToolTip": "TurnosBack\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:02:52.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
