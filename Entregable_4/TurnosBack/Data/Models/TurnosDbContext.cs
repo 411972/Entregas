@@ -54,6 +54,9 @@ public partial class TurnosDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("nombre");
+            entity.Property(e => e.Activo)
+                    .HasColumnName("activo")
+                    .HasColumnType("bit");
         });
 
         modelBuilder.Entity<TTurno>(entity =>

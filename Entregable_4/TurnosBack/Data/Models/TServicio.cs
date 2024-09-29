@@ -14,4 +14,6 @@ public partial class TServicio
     public int Costo { get; set; }
 
     public string EnPromocion { get; set; }
+
+    public bool Activo { get; set; }
 }

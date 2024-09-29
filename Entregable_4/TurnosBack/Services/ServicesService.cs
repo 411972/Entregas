@@ -18,27 +18,32 @@ namespace TurnosBack.Services
         }
         public bool Create(TServicio servicio)
         {
-            throw new NotImplementedException();
+            return _servicesRepository.Create(servicio);
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return _servicesRepository.Delete(id);
         }
 
-        public TServicio Get(int id)
+        public TServicio Get(int precio_min, int precio_max)
         {
-            throw new NotImplementedException();
+            return _servicesRepository.Get(precio_min, precio_max);
         }
 
         public List<TServicio> GetAll()
         {
             return _servicesRepository.GetAll();
         }
-
-        public bool Update(TServicio servicio)
+        
+        public TServicio GetById(int id)
         {
-            throw new NotImplementedException();
+            return _servicesRepository.GetById(id);
+        }
+
+        public bool UpdateService(int id,TServicio servicio)
+        {
+            return _servicesRepository.UpdateService(id,servicio);
         }
     }
 }

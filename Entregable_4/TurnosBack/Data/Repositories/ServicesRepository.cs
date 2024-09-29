@@ -18,17 +18,56 @@ namespace TurnosBack.Data.Repositories
         }
         public bool Create(TServicio servicio)
         {
-            throw new NotImplementedException();
+            bool result = false;
+
+            if(servicio != null)
+            {
+                try
+                {
+                    _context.TServicios.Add(servicio);
+                    _context.SaveChanges();
+                    result = true;
+                }
+                catch (Exception exc)
+                {
+                    throw exc;
+                }     
+                
+            }
+
+            return result;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            var servicioEncontrado = _context.TServicios.FirstOrDefault(e => e.Id == id);
+
+            if(servicioEncontrado != null)
+            {
+                
+                servicioEncontrado.Activo = false;
+                try
+                {
+                    _context.TServicios.Update(servicioEncontrado);
+                    _context.SaveChanges();
+                    result = true;
+                }
+                catch (Exception exc )
+                {
+
+                    throw exc;
+                }
+
+            }
+            return result;
         }
 
-        public TServicio Get(int id)
+        public TServicio Get(int precio_min, int precio_max)
         {
-            throw new NotImplementedException();
+            return _context.TServicios
+                    .Where( e => e.Costo >= precio_min && e.Costo <= precio_max)
+                    .FirstOrDefault();
         }
 
         public List<TServicio> GetAll()
@@ -36,9 +75,40 @@ namespace TurnosBack.Data.Repositories
             return _context.TServicios.ToList();
         }
 
-        public bool Update(TServicio servicio)
+        public TServicio GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.TServicios.FirstOrDefault(e => e.Id == id);
+        }
+
+        public bool UpdateService(int id, TServicio servicio)
+        {
+            var servicioExistente = GetById(id);
+            bool result;
+
+            if (servicioExistente == null)
+            {
+                result =false;
+            }
+            else
+            {
+                try
+                {
+                    servicioExistente.Nombre = servicio.Nombre;
+                    servicioExistente.Costo = servicio.Costo;
+                    servicioExistente.EnPromocion = servicio.EnPromocion;
+
+                    _context.SaveChanges();
+                    result = true;
+                }
+                catch (Exception exc)
+                {
+
+                    throw exc;
+                };
+            }
+
+            return result;
+
         }
     }
 }

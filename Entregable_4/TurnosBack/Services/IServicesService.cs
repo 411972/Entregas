@@ -11,11 +11,13 @@ namespace TurnosBack.Services
     {
         List<TServicio> GetAll();
 
-        TServicio Get(int id);
+        TServicio Get(int precio_min, int precio_max);
+
+        TServicio GetById(int id);
 
         bool Create(TServicio servicio);
 
-        bool Update(TServicio servicio);
+        bool UpdateService(int id, TServicio servicio);
 
         bool Delete(int id);
 
