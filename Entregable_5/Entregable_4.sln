@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entregable_4", "Entregable_4\Entregable_4.csproj", "{BF803428-1185-46ED-8767-13EECD3A1D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnosBack", "TurnosBack\TurnosBack.csproj", "{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF803428-1185-46ED-8767-13EECD3A1D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF803428-1185-46ED-8767-13EECD3A1D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF803428-1185-46ED-8767-13EECD3A1D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF803428-1185-46ED-8767-13EECD3A1D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D786EA0B-BC25-49AE-A7B1-C53979CB90BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35A1E29D-9C96-4FA0-AAD8-BCAA27D854D3}
+	EndGlobalSection
+EndGlobal
