@@ -15,5 +15,5 @@ public partial class TServicio
 
     public string EnPromocion { get; set; }
 
-    public bool Activo { get; set; }
+    public bool? Activo { get; set; }
 }

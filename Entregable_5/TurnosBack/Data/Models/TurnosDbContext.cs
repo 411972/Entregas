@@ -37,12 +37,12 @@ public partial class TurnosDbContext : DbContext
 
         modelBuilder.Entity<TServicio>(entity =>
         {
-            entity.HasKey(e => new { e.Id });
             entity.ToTable("T_SERVICIOS");
 
             entity.Property(e => e.Id)
                 .ValueGeneratedNever()
                 .HasColumnName("id");
+            entity.Property(e => e.Activo).HasColumnName("activo");
             entity.Property(e => e.Costo).HasColumnName("costo");
             entity.Property(e => e.EnPromocion)
                 .IsRequired()
@@ -54,15 +54,10 @@ public partial class TurnosDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("nombre");
-            entity.Property(e => e.Activo)
-                    .HasColumnName("activo")
-                    .HasColumnType("bit");
         });
 
         modelBuilder.Entity<TTurno>(entity =>
         {
-            entity.HasKey(e => new { e.Id });
-
             entity.ToTable("T_TURNOS");
 
             entity.Property(e => e.Id).HasColumnName("id");
@@ -74,10 +69,12 @@ public partial class TurnosDbContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("fecha");
+            entity.Property(e => e.FechaCancelacion).HasColumnName("fecha_cancelacion");
             entity.Property(e => e.Hora)
                 .HasMaxLength(5)
                 .IsUnicode(false)
                 .HasColumnName("hora");
+            entity.Property(e => e.MotivoCancelacion).HasColumnName("motivo_cancelacion");
         });
 
         OnModelCreatingPartial(modelBuilder);

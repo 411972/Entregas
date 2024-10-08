@@ -14,4 +14,8 @@ public partial class TTurno
     public string Hora { get; set; }
 
     public string Cliente { get; set; }
+
+    public DateTime? FechaCancelacion { get; set; }
+
+    public string MotivoCancelacion { get; set; }
 }

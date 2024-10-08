@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurnosBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6826cc0ad8bdd27d09c0345c01d5b07564b4bfe3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d54e1a9d3c5127e356bd1f590cb9ca517789e98c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurnosBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurnosBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Entregable_5.props" />
+</Project>
