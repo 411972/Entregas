@@ -1,0 +1,53 @@
+
+.aside-menu{
+    height: 100%;    
+}
+
+
+.user-navbar-container{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 10px;
+    width: 100%;
+    height: 20%;
+}
+
+.actions-navbar-container{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    height: 70%;
+}
+
+
+.user-navbar-container img{
+    height: 50%;
+    width: 5rem;
+
+}
+
+.dashboard-container{
+    
+}
+
+body{
+    height: 100vh;
+}
+main{
+    height: 90%;
+}
+
+main .row{
+    height: 100%;
+}
+
+footer{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
